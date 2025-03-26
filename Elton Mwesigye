@@ -18,3 +18,4 @@ console.log(str.charAt(0));   // Output: "h"
 console.log(str.charAt(4));   // Output: "o"
 console.log(str.charAt(5));   // Output: "" (out of bounds)
 console.log(str.charAt(-1));  // Output: "h" (negative index treated as 0)
+.
