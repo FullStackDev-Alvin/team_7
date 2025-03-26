@@ -1,1 +1,20 @@
+What is charAt()?
 
+The charAt() method is a fundamental string method in JavaScript that allows you to access the character at a specific index (position) within a string. 
+Think of a string as an ordered sequence of characters, and charAt() lets you pick out one of those characters based on its place in the sequence.
+
+Syntax in JavaScript:
+
+string.charAt(index)
+
+string: This is the string you want to work with. It can be a string literal (e.g., "hello") or a string variable.
+index: This is a non-negative integer representing the position of the character you want to retrieve.
+The indexing in JavaScript strings (and many other programming languages) is zero-based. This means the first character of the string is at index 0, the second character is at index 1, and so on.
+
+Code examples:
+
+const str = "hello";
+console.log(str.charAt(0));   // Output: "h"
+console.log(str.charAt(4));   // Output: "o"
+console.log(str.charAt(5));   // Output: "" (out of bounds)
+console.log(str.charAt(-1));  // Output: "h" (negative index treated as 0)
