@@ -1,5 +1,7 @@
 The at() method takes an integer value and returns the element at that index within a string or array.
-const myString = "Hello";
-  console.log(myString.at(0)); // Output: "H"
-  console.log(myString.at(4)); // Output: "o"
-.
+function At(string, index) {
+  return string.at(index);
+}
+
+console.log(At("Hello", 0)); 
+console.log(At("Hello", 4)); 
